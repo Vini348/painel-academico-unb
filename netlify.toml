@@ -4,6 +4,9 @@
 
 [functions]
   node_bundler = "esbuild"
+  # Mantém o pacote completo do PDF.js disponível em node_modules no ambiente
+  # serverless, incluindo pdf.worker.mjs usado pelo fake worker do Node.js.
+  external_node_modules = ["pdfjs-dist"]
 
 [[headers]]
   for = "/sw.js"
