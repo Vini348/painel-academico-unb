@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "web-push": "^3.6.7"
+    "web-push": "^3.6.7",
+    "pdfjs-dist": "^4.10.38"
   }
 }
